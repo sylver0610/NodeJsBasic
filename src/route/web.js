@@ -11,6 +11,7 @@ const initWebRoute = (app) => {
         res.send('Hello World!')
     })
 
+    router.get('/detail/user/:userId', homeController.getDetailPage)
 
     return app.use('/', router);
 }
