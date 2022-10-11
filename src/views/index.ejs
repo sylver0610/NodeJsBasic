@@ -47,5 +47,27 @@
         </tbody>
       </table>
     </div>
+    <div class="create-user-container">
+      <form action="/create-new-user" method="post">
+        <div>Create new user:</div>
+        <div>
+          <label>FirstName:</label>
+          <input type="text" name="firstName" />
+        </div>
+        <div>
+          <label>LastName:</label>
+          <input type="text" name="lastName" />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label>Address:</label>
+          <input type="text" name="address" />
+        </div>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
   </body>
 </html>

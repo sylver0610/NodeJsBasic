@@ -9,9 +9,9 @@ require('dotenv').config()
 const app = express()
 const port = process.env.PORT;
 
-// app.get('/', (req, res) => {
-//   res.sendFile(path.join(__dirname, './index.html'));
-// })
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 
 //setup view engine
 configViewEngine(app);
