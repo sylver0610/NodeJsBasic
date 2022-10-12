@@ -28,6 +28,12 @@ body {
   color: white;
 }
 
+td.user {
+  display: flex;  
+  Align-items: center;
+  /* Justify-content: space-around; */
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -53,4 +59,8 @@ table {
 .create-user-container .btn-submit {
   margin-top: 15px;
   cursor    : pointer;
+}
+
+form {
+  margin-left: 20px;
 }
