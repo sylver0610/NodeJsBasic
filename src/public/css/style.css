@@ -64,3 +64,16 @@ table {
 form {
   margin-left: 20px;
 }
+
+.upload-file-container{
+  padding: 15px;
+}
+
+.upload-file-container label {
+  display: block;
+}
+
+.btn-save{
+  margin-top: 15px;
+  cursor: pointer;
+}
